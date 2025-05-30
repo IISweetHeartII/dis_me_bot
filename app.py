@@ -82,7 +82,7 @@ except KeyError:
     st.stop()
 
 # --- Model Configuration ---
-model = genai.GenerativeModel("gemini-2.5-flash-preview-05-20")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 # --- Session State Initialization ---
 if 'history' not in st.session_state:
